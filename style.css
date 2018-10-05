@@ -34,11 +34,23 @@ nav a {
   height: 30px;
   text-decoration: none;
 }
+
+main, p, h3 {
+  color: black;
+}
+
+img{
+  width: 50px;
+}
+
 footer {
   width: 100%;
   background-color: lightgreen;
   text-align: center;
-  margin: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 0;
+  margin-right: 0;
   padding: 14px 16px;
   color: white;
 }

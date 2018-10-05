@@ -1,3 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  margin: 3%;
+}
+header {
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+ h1 {
+  color: white;
+  text-align: center;
+  background-color: blue;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  height: 30px;
+  text-decoration: none;
+}
+
+
 table, td, th {
   border: 1px solid black;
 }
@@ -12,6 +50,14 @@ td {
   height: 50px;
   vertical-align: bottom;
 }
-footer{
+footer {
+  width: 100%;
+  background-color: lightgreen;
   text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 14px 16px;
+  color: black;
 }
